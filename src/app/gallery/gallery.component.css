@@ -1,0 +1,61 @@
+.gallery{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(1,800px);
+    grid-template-rows:  repeat(3,400px);
+    
+    padding: 5px;
+    
+}
+.gallery-item{
+
+    display: flex;
+    min-width: 768px;
+    min-height: 368px;
+    flex-direction: row;
+    margin: 16px;
+    
+    border-radius: 20px;
+    box-shadow: 5px 6px 10px #ddd, -1px -1px 5px #eee;
+    
+}
+
+.detail-container{
+    display: block;
+    margin: auto;
+    width: 100%;
+    
+}
+.name{
+
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.image{
+    
+    display: block;
+    margin: auto 10px auto 20px;
+    width: 250px;
+    height: 250px;
+    border-radius: 20%;    
+}
+
+.details{
+
+    
+    display: block;
+    margin-left: 40px;
+    margin-right: auto;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    padding: 5px;
+
+}
+
+.episode{
+    overflow: hidden;
+}

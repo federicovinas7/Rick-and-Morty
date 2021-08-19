@@ -1,0 +1,21 @@
+<div class="gallery">
+    <div  *ngFor="let character of characters" class="gallery-item">
+        <img class="image" src={{character.image}} alt="">
+        <div class="detail-container">
+                <div class="name">{{character.name}}</div>
+                <div class="details">Status: {{character.status}}</div>
+                <div class="details">Species: {{character.species}}</div>
+                <div class="details">Gender: {{character.gender}}</div>
+                <div class="details">Origin: {{character.origin.name}}</div>
+                <div class="details">Location: {{character.location.name}}</div>
+                <!-- <div class="details episode">Episode: {{character.episode}}</div>          -->
+        </div>
+        
+    </div>
+    <div class="gallery-item"></div>
+    <div class="gallery-item"></div>
+    <div class="gallery-item"></div>
+    <div class="gallery-item"></div>
+    <div class="gallery-item"></div>
+
+</div>
